@@ -1,7 +1,7 @@
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Request {
+public class GETrequest {
     public static void main(String[] args) {
         try {
             // URL zu Google
