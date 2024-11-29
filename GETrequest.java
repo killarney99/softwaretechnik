@@ -17,7 +17,7 @@ public class GETrequest {
             int statusCode = connection.getResponseCode();
 
             // Gib den Statuscode auf der Konsole aus
-            System.out.println("HTTP Status Code: " + statusCode);
+            System.out.println("HTTP Status Code von www.google.de : " + statusCode);
         } catch (Exception e) {
             // Fehlerbehandlung
             e.printStackTrace();
